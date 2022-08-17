@@ -19,5 +19,6 @@ async function bubbleSortAlgorithm(){
 			els[j+1].style.backgroundColor = '#395659';
 		}
 	}
+        bubbleSort.disabled = false;
 
 }
