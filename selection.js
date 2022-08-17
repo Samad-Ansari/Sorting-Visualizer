@@ -19,5 +19,7 @@ async function selectionSortAlgorithm(){
 			els[j].style.backgroundColor = '#395659';
 		}
 	}
+    
+        selectionSort.disabled = false;
 
 }
