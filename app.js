@@ -84,7 +84,8 @@ createNewArray(arraySize);
 
 async function createNewArray(noOfBars = 50){
 	deleteOldArray();
-
+	bubbleSort.disabled = false;
+        selectionSort.disabled = false;
 	for(let i=0; i<noOfBars; i++){
 		bars.push(Math.floor(Math.random()*250));
 	}
